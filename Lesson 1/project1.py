@@ -1,3 +1,5 @@
+""""flags"""
+
 height = input("Flag height:\n")
 height = int(height)
 width = input("Flag width:\n")

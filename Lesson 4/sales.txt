@@ -1,0 +1,4 @@
+cappuccino,13
+latte,22
+coffee,31
+tea,5

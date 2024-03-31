@@ -13,10 +13,10 @@ def get_computer_rps():
     return SCISSORS
 
 def get_user_rps():
-    selection = ''
-    while selection != ROCK and selection != PAPER and selection != SCISSORS:
-        selection = input('Enter rock, paper, or scissors: ')
-    return selection
+    user = ''
+    while user != ROCK and user != PAPER and user != SCISSORS:
+        user = input('Enter rock, paper, or scissors: ')
+    return user
 
 def result_check(user, computer):
     if user == computer:
